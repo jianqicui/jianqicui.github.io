@@ -11,6 +11,7 @@ permalink: /about/
 ## 联系
 
 <ul>
+<li>Email：<a href="mailto:{{ site.email }}" target="_top">{{ site.email }}</a></li>
 {% for website in site.data.social %}
 <li>{{website.sitename }}：<a href="{{ website.url }}" target="_blank">@{{ website.name }}</a></li>
 {% endfor %}
