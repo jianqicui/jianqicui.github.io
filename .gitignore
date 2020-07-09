@@ -1,7 +1,9 @@
-.project
-_site
-.sass-cache
+_site/
+*.sw[po]
+*.~vsd
+\#*\#
+*~
+.DS_Store
+Gemfile.lock
+.vscode/
 .jekyll-metadata
-.idea
-
-_posts/2019/2019-10-08-ali-interview.md

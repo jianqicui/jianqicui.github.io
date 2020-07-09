@@ -1,13 +1,28 @@
 ---
 layout: page
-title: About Me
-titlebar: About
-menu: about
-subtitle:  <span class="mega-octicon octicon-person"></span>&nbsp;&nbsp; I am a programmer         
-css: ['about.css', 'sidebar-popular-repo.css', '../../bower_components/flag-icon-css/css/flag-icon.min.css']
-permalink: /about
+title: About
+description: 打码改变世界
+keywords: Jacky Cui
+comments: true
+menu: 关于
+permalink: /about/
 ---
 
-{% include about.html %}
+## 联系
 
+<ul>
+{% for website in site.data.social %}
+<li>{{website.sitename }}：<a href="{{ website.url }}" target="_blank">@{{ website.name }}</a></li>
+{% endfor %}
+</ul>
 
+## Skill Keywords
+
+{% for skill in site.data.skills %}
+### {{ skill.name }}
+<div class="btn-inline">
+{% for keyword in skill.keywords %}
+<button class="btn btn-outline" type="button">{{ keyword }}</button>
+{% endfor %}
+</div>
+{% endfor %}

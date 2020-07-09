@@ -1,20 +1,8 @@
-<div>
-   <p align="center">
-     	  {% if page.copyright %}
-         <img src="http://favorites.ren/assets/images/{{ page.copyright }}.jpg" >
-         <br/>
-         微信扫描二维码，关注我的公众号
-        {% else %}
-         <img src="http://favorites.ren/assets/images/cartoon.jpg" >
-         <br/>
-         微信扫描二维码，关注一个有故事的程序员
-        {% endif %}
-
-   </p>
-   <p align="center" style="margin-top: 15px; font-size: 11px;color: #cc0000;">
-       <strong>（转载本站文章请注明作者和出处 <a href="http://www.ityouknow.com">纯洁的微笑-ityouknow</a>）</strong>
-   </p>
-   <p align="center" style="margin-top: 15px; font-size: 16px;color: #337ab7;">
-       <strong><a href="http://www.justdopython.com/" target="_blank">点击了解：Python从0到100天的学习教程</a></strong>
-   </p>
+<div style="margin-top:2em;padding:0 1.5em;border:1px solid #d3d3d3;background-color:#deebf7">
+  <h3>文档信息</h3>
+  <ul>
+    <li>本文作者：<a href="{{ site.url }}" target="_blank">{{ site.author }}</a></li>
+    <li>本文链接：<a href="{{ site.url }}{{ page.url }}" target="_blank">{{ site.url }}{{ page.url }}</a></li>
+    <li>版权声明：自由转载-非商用-非衍生-保持署名（<a href="http://creativecommons.org/licenses/by-nc-nd/3.0/deed.zh" target="_blank">创意共享3.0许可证</a>）</li>
+  </ul>
 </div>
