@@ -62,7 +62,7 @@ Configuration file: C:/Data/Workspace/Eclipse/Jekyll/testblog/_config.yml
 
 ### 使用Jekyll模板
 
-解压模板文件夹，删除`Gemfile`和`Gemfile.lock`这两文件。
+解压模板文件夹，删除`Gemfile`和`Gemfile.lock`这两文件。这两个文件中包含了当时编译模板使用的Ruby gem依赖包的版本。由于Ruby gem的升级，当时的依赖包版本，在最新的Ruby gem中有可能已经不存在了，所以必须删除。最新的Ruby gem不会生成这个两个文件。
 
 修改`_config.yml`，替换自己的GitHub信息。
 
