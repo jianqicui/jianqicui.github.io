@@ -1,88 +1,87 @@
-# ---------------- #
-#   Main Configs   #
-# ---------------- #
-url: https://jianqicui.github.io/
-date_format: "ordinal"
+# Welcome to Jekyll!
+#
+# This config file is meant for settings that affect your whole blog, values
+# which you are expected to set up once and rarely need to edit after that.
+# For technical reasons, this file is *NOT* reloaded automatically when you use
+# 'jekyll serve'. If you change this file, please restart the server process.
+
+# Site settings
 title: Jacky's Blog
-subtitle: "I am Jacky!"
-description: "Jacky's Blog"
-keywords: jianqicui, Jacky, Java
-timezone: Asia/Shanghai
-encoding: "utf-8"
-side_bar_repo_limit: 5
-favicon: favicon.png
-repository: jianqicui/jianqicui.github.io
-
-# 压缩页面内容
-compress_html:
-  clippings: all
-  comments: ["<!--", "-->"]
-# 文章字数统计
-word_count:
-    enabled: true
-# 代码高亮风格
-highlight_theme: github
-
-# ---------------- #
-#      Author      #
-# ---------------- #
-author: Jacky Cui
-organization: 
-organization_url: 
-github_username: jianqicui
-location: China
+subtitle: I am Jacky!
+name: Jacky's Blog
 email: jianqicui@hotmail.com
+location: China
+description: Jacky's Blog
+favicon: favicon.png
 
-# ---------------- #
-#    Navigation    #
-# ---------------- #
+repository: jianqicui/jianqicui.github.io
+github_url: https://github.com/jianqicui
+github_username: jianqicui
+url: https://jianqicui.github.io
+
+## Gem
+plugins:
+  - jekyll-paginate
+  - jekyll-geo-pattern
+  - rouge
+  - kramdown
+  - jekyll-github-metadata
+
+# Build settings
+markdown: kramdown
+highlighter: rouge
+lsi:         false
+excerpt_separator: "\n\n"
+
+source:      .
+destination: ./_site
+
+quiet:    false
+defaults: []
+
+kramdown:
+  input: GFM
+  enable_coderay: true
+
+# Disque
+disque: my_disque_settings # ex. httpdongchuangithubio.disqus.com
+
+# Pagination
+paginate: 10
+paginate_path: 'page:num'
+
+# Navigation. If you do not like these modules, just remove them :D
 navs:
   -
     href: /
-    label: 首页
+    label: Home
 
   -
-    href: /categories/
-    label: 分类
-    
-  -
-    href: /links/
-    label: 链接
+    href: /open-source
+    label: Open-Source
 
   -
-    href: /about/
-    label: 关于
+    href: /blog
+    label: Blog
 
-# ---------------- #
-#       RSS        #
-# ---------------- #
-subscribe_rss: /feed.xml
+  -
+    href: /bookmark
+    label: Bookmark
 
-# ---------------- #
-#      Jekyll      #
-# ---------------- #
-markdown: kramdown
-kramdown:
-    input: GFM
-highlighter: rouge
-paginate: 10
-lsi: false
-quiet: false
-excerpt_separator: "\n\n"
-permalink: /:year/:month/:day/:title/
-plugins:
-    - jekyll-github-metadata
-    - rouge
-    - jekyll-paginate
-    - jekyll-sitemap
-    - jekyll-feed
-    - jemoji
+  -
+    href: /about
+    label: About
 
-# ---------------- #
-#      Search      #
-# ---------------- #
-simple_jekyll_search:
-    # 是否支持全文搜索
-    fulltext: false
-    # 最多显示多少条搜索结果
-    limit: 10
+# Sidebar to show popular repo
+side_bar_repo_limit: 5 # Number of repos to show
+
+# Google Analytics
+analytics :
+  provider : google
+  google :
+      tracking_id : 'tracking_id'  # ex. UA-72165600-X
+
+# For about.html. Fell free to create your own!
+skill_software_keywords: [Java]
+skill_j2ee_keywords: [Spring]
+skill_web_keywords: [HTML, CSS, JS, JQuery, Ajax, Boostrap]
