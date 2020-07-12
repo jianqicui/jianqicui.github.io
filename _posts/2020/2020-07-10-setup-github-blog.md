@@ -2,8 +2,9 @@
 layout: post
 title: GitHub上搭建个人博客
 category: GitHub
-tags: GitHub Jekyll 博客
-keywords: GitHub Jekyll 博客
+tags: [GitHub, Jekyll, 博客]
+keywords: GitHub,Jekyll,博客
+excerpt: GitHub上搭建个人博客
 ---
 
 GitHub上搭建个人博客有以下优点，个人域名、无广告。对程序员来说，不失为一个好的选择。下面具体讲解。
