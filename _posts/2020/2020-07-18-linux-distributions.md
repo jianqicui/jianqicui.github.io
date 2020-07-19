@@ -66,7 +66,7 @@ Gentoo最初由Daniel Robbins（FreeBSD 的开发者之一）创建，首个稳�
 除以上4种Linux发行版外，还有很多其他版本，以下罗列了几种常见的Linux发行版以及它们各自的特点：
 
 | 版本名称 | 特点 | 软件包管理器 |
-| -----| ---- | ---- | ---- |
+| ----| ---- | ---- | ---- |
 | Debian Linux | 开放的开发模式，且易于进行软件包升级 | apt |
 | Fedora Core | 拥有数量庞人的用户，优秀的社区技术支持，并且有许多创新 | up2date（rpm），yum（rpm） |
 | CentOS | CentOS是一种对RHEL（Red Hat Enterprise Linux）源代码再编译的产物，并在RHEL的基础上修正了不少已知的漏洞 | rpm |
