@@ -2,7 +2,7 @@
 layout: post
 title: 开源协议
 category: Open Source
-tags: [Open Source]
+tags: [开源协议, Open Source]
 keywords: 开源协议
 excerpt: 开源协议
 ---

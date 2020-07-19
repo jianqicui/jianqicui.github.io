@@ -2,7 +2,7 @@
 layout: post
 title: 开源软件
 category: Open Source
-tags: [Open Source]
+tags: [开源软件, Open Source]
 keywords: 开源软件
 excerpt: 开源软件
 ---
