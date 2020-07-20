@@ -4,7 +4,7 @@ title: UNIX和Linux的关系及区别
 category: Linux
 tags: [UNIX, Linux]
 keywords: UNIX,Linux
-excerpt: UNIX和Linux的关系及区别
+excerpt: 在目前主流的操作系统中，UNIX诞生于20世纪60年代末，Windows诞生于20世纪80年代中期，Linux诞生于20世纪90年代初，可以说UNIX是操作系统中的"老大哥"，后来的Windows和Linux都参考了UNIX。
 ---
 
 UNIX与Linux之间的关系是一个很有意思的话题。在目前主流的操作系统中，UNIX诞生于20世纪60年代末，Windows诞生于20世纪80年代中期，Linux诞生于20世纪90年代初，可以说UNIX是操作系统中的"老大哥"，后来的Windows和Linux都参考了UNIX。

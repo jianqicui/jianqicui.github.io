@@ -2,9 +2,9 @@
 layout: post
 title: Linux发行版本
 category: Linux
-tags: [Linux, Distributions]
-keywords: Linux,发行版本
-excerpt: Linux发行版本
+tags: [Linux发行版本]
+keywords: Linux发行版本
+excerpt: 一些组织或厂商将Linux内核与各种软件和文档包装起来，并提供系统安装界面和系统配置、设定与管理工具，就构成了Linux的发行版本。
 ---
 
 新手往往会被Linux众多的发行版本搞得一头雾水，我们首先来解释一下这个问题。

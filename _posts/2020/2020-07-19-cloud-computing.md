@@ -2,9 +2,9 @@
 layout: post
 title: 云计算是什么？
 category: Cloud Computing
-tags: [云计算, Cloud Computing]
+tags: [云计算]
 keywords: 云计算
-excerpt: 云计算
+excerpt: 云计算具有5个基本特征、4种部署模型和3种服务模式。
 ---
 
 对于传统的个人计算机而言，计算设备和输入/输出设备通过主板连接在一起，也就是说，有了主板这个纽带，计算设备和输入/输出设备就可以协同工作了。其特征如下：

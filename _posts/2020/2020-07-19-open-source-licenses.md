@@ -2,9 +2,9 @@
 layout: post
 title: 开源协议
 category: Open Source
-tags: [开源协议, Open Source]
+tags: [开源协议]
 keywords: 开源协议
-excerpt: 开源协议
+excerpt: 开源协议规定了你在使用开源软件时的权利和责任，也就是规定了你可以做什么，不可以做什么。
 ---
 
 开源软件在追求“自由”的同时，不能牺牲程序员的利益，否则将会影响程序员的创造激情，因此世界上现在有60多种被开源促进组织（Open Source Initiative）认可的开源许可协议来保证开源工作者的权益。

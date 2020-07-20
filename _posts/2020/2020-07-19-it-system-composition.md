@@ -2,9 +2,9 @@
 layout: post
 title: IT系统组成
 category: Cloud Computing
-tags: [IT系统组成, Cloud Computing]
+tags: [云计算, IT系统组成]
 keywords: IT系统组成
-excerpt: IT系统组成
+excerpt: 一个典型的IT系统从逻辑上分为九层，其中，第1～4层可归并为基础设施层，第5～7层可归并为平台软件层。
 ---
 
 为了搞清楚企业中复杂的IT系统结构，我们假设一家投资8000万元的公司诞生了，他们购买了一栋办公楼，现在需要计算机工程师们把IT系统搭建起来。工程师们制订了如下工作计划：
