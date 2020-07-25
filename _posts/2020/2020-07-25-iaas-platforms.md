@@ -1,6 +1,6 @@
 ---
 layout: post
-title: IaaS 管理平台-OpenStack 和 CloudStack 的比较
+title: IaaS 管理平台：OpenStack vs CloudStack
 category: Cloud Computing
 tags: [IaaS, OpenStack, CloudStack]
 keywords: IaaS 管理平台,OpenStack,CloudStack
