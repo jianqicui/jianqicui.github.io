@@ -1,37 +1,42 @@
 ---
 layout: post
-title: PaaS 管理平台：OpenStack vs CloudStack
+title: PaaS 管理平台：OpenShift vs CloudFoundry
 category: Cloud Computing
-tags: [IaaS, OpenStack, CloudStack]
-keywords: IaaS 管理平台,OpenStack,CloudStack
-excerpt: 在云端，虚拟化属于基础设施层，具体包括服务器虚拟化、网络虚拟化和存储虚拟化，虚拟的目的是为了池化物理资源。
+tags: [PaaS, OpenShift, CloudFoundry]
+keywords: PaaS 管理平台,OpenShift,CloudFoundry
+excerpt: OpenShift vs CloudFoundry
 ---
 
-OpenStack 是目前最大和最活跃的开源云计算项目，OpenStack 已经获得了很多的支持，包括很多大牌厂商，例如 Rackspace、戴尔、惠普、思科、VMware 和红帽等。与此同时，另外一个开源云计算项目 CloudStack 也正迅猛的增长，对 OpenStack 发起挑战，目前主要受到思杰（Citrix）和其他较小厂商的支持。
+云开发平台实现的目标都类似，但仍然需要为企业独特的业务和开发需求选择合适的平台。两种最常见的开源平台即服务（PaaS）工具是 Red Hat 公司的 OpenShift，以及 Pivotal 软件公司的 CloudFroundry。要确定哪一个工具更适合，需要评估三个重要的关键特性：所支持的编程语言、架构以及如何与第三方工具集成。
 
-CloudStack 是一个开源的具有高可用性及扩展性的云计算平台。2012 年 4 月 Ctrtix 宣布将 CloudStack 加入 Apache 软件基金会，成为 Apache 许可下的完全开源软件。可以加速高伸缩性的公共和私有云（基础设施即服务）的部署、管理、配置。提到开源的云计算平台，相信大家首先想到的可能是 OpenStack，目前国内的几家云计算平台如阿里云、盛大云以及新浪 SAE 貌似都基于 OpenStack 做了二次开发。OpenStack 由 NASA 和 Rackspace 合作研发的的云计算平台，以 Apache 许可证授权，旨在为公有云及私有云的建设与管理提供软件的自由软件和开源项目。
+## 语言支持和功能
 
-## OpenStack 和 CloudStack 的比较
+企业希望选择一个可以支持当前和未来的语言偏好的开源 PaaS 工具。OpenShift 使用模块的概念，又叫做 cartridges，支持 Java、 PHP、Python、Perl、Node.js，数据库语言则支持 MySQL、MongoDB 和 PostgreSQL。另外，OpenShift 还支持诸如 Jenkins 和 Cron 这样的工具，和包括 Oracle 业务流程管理套件以及 Red Hat Jboss 业务规则管理系统（BRMS）。
 
-| 比较 | OpenStack | CloudStack |
-| ----| ---- | ---- |
-| 服务类型 | Iaas | Iaas |
-| 授权协议 | Apache 2.0 | Apache 2.0 |
-| 许可证 | 不需要 | 不需要 |
-| 动态资源调配 | 无现成功能，需要通过 Nova-Scheduler 组件实现 | 主机 Maintainance 模式下自动迁移VM |
-| VM模板 | 支持 | 支持 |
-| VM Console | 支持 | 支持 |
-| 开发语言 | Python | Java |
-| 用户界面 | DashBoard，较简单 | Web Console，功能较完善 |
-| 负载均衡 | 软件负载均衡（Nova-Network或Openstack Load Balance API）、硬件负载均衡 | 软件负载均衡（Virtual Router）、硬件负载均衡 |
-| 虚拟化技术 | XenServer，Oracle VM，ESX/ESXi，KVM，LXC 等 | XenServer，Oracl VM，vShpere，KVM，Bare Metal |
-| 最小部署 | 支持 All in one | 一个管理节点，一个主机节点 |
-| 支持数据库 | PostgreSQL，MySQL，SQLite | MySQL |
-| 组件 | Nova，Glance，Keystone，Horizon，Swift | Console Proxy VM，Second Storage VM，Virtual Router VM，HostAgent，Management Server |
-| 网络形版 | VLAN，FLAT，FlatDHCP | Isolation (VLAN)，Share |
-| 版本问题 | 存在各个版本兼容性问题 | 版本发布稳定，不存在兼容性问题 |
-| VLAN | 支持 VLAN 间互访 | 不能 VLAN 间互访 |
+与此相比，Cloud Foundry 对语言的支持是以 buildpack 的形式或者是用来编译平台应用程序的脚本。这些 buildpack 包括 Java、Node.js、 Ruby、 binary、Go、PHP、Python 以及其他。用户还可以选择编写自己的 buildpack。
+
+接下来，考虑一个开源 PaaS 工具里所需要的基本特性和功能。记住，每种工具都有开源和商业的版本，同时还有托管和本地的不同。例如，Red Hat 提供 OpenShift 在线版和 OpenShift 企业版，后者是托管在用户的数据中心。两者都提供自服务的开发平台，多语言支持、自动化、协作、容器移植性和对不同云基础架构的支持。
+
+Cloud Foundry 提供安全性、监控和管理、容器移植性、混合云支持、自动更新的功能，以及数据库、分析器和其他中间件的服务集成。
+
+## 架构和集成
+
+开源 PaaS 产品通常由多个模块或组件构成，因此 IT 决策人员要核查每个平台的系统架构。例如，Cloud Foundry 包括一个路由器、认证服务器、应用生命周期管理器、应用程序执行引擎、服务代理、消息，以及指标和日志的元素。
+
+OpenShift 使用的架构同 Cloud Foundry 大相径庭。它由单个节点组成，以容纳应用程序代码和服务，同时还有一系列的单独代理来管理节点和提供服务。除此之外，OpenShift 的架构还包括一个消息系统将节点和代理绑定到一起，并且使用 RESTful 的 API 同外部工具整合。
+
+开源开发平台通常需要同其他工具整合来提供全套的功能。例如，Cloud Foundry 通常同以下的平台工具集成使用：
+
+* Diego：运行环境：提供共享内存，工作负载调度和不同的容器格式。
+
+* Lattice：一个 Pivotal 工具用来在一个云集群中运行容器化的工作负载。Lattice 为 Cloud Foundry 提供路由，健康度，执行，存储和日志的功能。
+
+* Bosh：一个用于云服务的版本控制，部署和生命周期管理的开源工具。
+
+同样，OpenShift 也集成并依赖于几个工具，包括 RHC 客户端工具，主要用于创建，部署和管理应用，以及使用 JBoss Developer Studio 创建基于 Web 的应用。
+
+除了以上提到的开源工具，企业还可以考虑亚马逊 Web 服务、Google App Engine 和微软的 Azure 提供的公有云开发工具。
 
 ## 参考
 
-[https://blog.csdn.net/carolzhang8406/article/details/56480024](https://blog.csdn.net/carolzhang8406/article/details/56480024)
+[https://blog.csdn.net/weixin_34261739/article/details/90385320](https://blog.csdn.net/weixin_34261739/article/details/90385320)
