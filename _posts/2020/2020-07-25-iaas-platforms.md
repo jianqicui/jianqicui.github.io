@@ -4,7 +4,7 @@ title: IaaS 管理平台：OpenStack vs CloudStack
 category: Cloud Computing
 tags: [IaaS, OpenStack, CloudStack]
 keywords: IaaS 管理平台,OpenStack,CloudStack
-excerpt: 在云端，虚拟化属于基础设施层，具体包括服务器虚拟化、网络虚拟化和存储虚拟化，虚拟的目的是为了池化物理资源。
+excerpt: OpenStack vs CloudStack
 ---
 
 OpenStack 是目前最大和最活跃的开源云计算项目，OpenStack 已经获得了很多的支持，包括很多大牌厂商，例如 Rackspace、戴尔、惠普、思科、VMware 和红帽等。与此同时，另外一个开源云计算项目 CloudStack 也正迅猛的增长，对 OpenStack 发起挑战，目前主要受到思杰（Citrix）和其他较小厂商的支持。
