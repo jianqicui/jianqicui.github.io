@@ -34,7 +34,7 @@ excerpt: 开源软件就是把软件程序与源代码文件一起打包提供�
 
 ## 开源社区汇总
 
-![](/assets/images/2020/open_source_communities.jpg)
+![](/assets/images/2020/Open_Source_Communities.jpg)
 
 ## 参考
 

@@ -33,7 +33,7 @@ Linux 内核最初是由李纳斯•托瓦兹（Linus Torvalds）在赫尔辛基
 
 UNIX/Linux 系统可以地抽象为 3 个层次。底层是 UNIX/Linux 操作系统，即系统内核（Kernel）；中间层是 Shell 层，即命令解释层；高层则是应用层。
 
-![](/assets/images/2020/architecture_unix_linux.jpg)
+![](/assets/images/2020/Architecture_Unix_Linux.jpg)
 
 ### 内核层
 内核层是 UNIX/Linux 系统的核心和基础，它直接附着在硬件平台之上，控制和管理系统内各种资源（硬件资源和软件资源），有效地组织进程的运行，从而扩展硬件的功能，提高资源的利用效率，为用户提供方便、高效、安全、可靠的应用环境。

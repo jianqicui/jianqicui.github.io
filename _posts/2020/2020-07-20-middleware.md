@@ -39,7 +39,7 @@ Hadoop 在海量非结构化数据处理方面能充分展示它的优势，如�
 
 Hadoop 其实就是一个分布式计算平台，它“覆盖”在操作系统之上，向上提供函数调用（API）和命令接口，在水平方向完成分布式系统的基础算法。作为编程人员和用户，只要了解 API 和命令即可。
 
-![](/assets/images/2020/hadoop.jpg)
+![](/assets/images/2020/Hadoop.jpg)
 
 基于 Hadoop 平台衍生出来的开源项目主要有 Yarn、HBase、Hive、ZooKeeper、Avro、Sqoop、Mahout、Crossbow 等。
 
@@ -55,7 +55,7 @@ Hadoop 其实就是一个分布式计算平台，它“覆盖”在操作系统�
 
 LVS是 Linux Virtual Server 的首字母缩写，意为 Linux 虚拟服务器，即把许多台物理 Linux 计算机逻辑上整合成一台超级计算机，对用户来说感觉只有一台计算能力很强的服务器，如下图所示。
 
-![](/assets/images/2020/lvs.gif)
+![](/assets/images/2020/LVS.gif)
 
 LVS 就是一个由软件实现的负载均衡器，工作在网络 OSI 的第四层（应用层），是中国人章文嵩开发，代码已经并入了 Linux 内核。利用它，再加上一台廉价的计算机，就能构建一台企业级的负载均衡器。而那些外国大公司的负载均衡器，售价都要十几万元，甚至几十万元，便宜的也要几万元，LVS 出来后，这些产品都不得不降价。
 
@@ -84,7 +84,7 @@ LVS 就是一个由软件实现的负载均衡器，工作在网络 OSI 的第�
 
 我们浏览一家公司的网站时，很可能就是跟那家公司服务器上的 Apache 程序打交道，网页浏览器与 Apache 成了标准的 C/S 模式，浏览器是客户端，而 Apache 是服务端。Apache 首先把主页对应的文件 index.html 发给我们，我们看到主页内容后，点击主页上的某个链接，它又把该链接对应的文件发给我们，过程下图所示。
 
-![](/assets/images/2020/access_static_web_page.jpg)
+![](/assets/images/2020/Access_Static_Web_Page.jpg)
 
 配合 PHP 引擎，Apache 也支 持PHP 动态网页。过程为：
 

@@ -27,7 +27,7 @@ excerpt: 云计算具有 5 个基本特征、4 种部署模型和 3 种服务模
 
 **云计算的可视化模型**
 
-![](/assets/images/2020/cloud_computing_visual_model.jpg)
+![](/assets/images/2020/Cloud_Computing_Visual_Model.jpg)
 
 云计算具有 5 个基本特征、4 种部署模型和 3 种服务模式。
 

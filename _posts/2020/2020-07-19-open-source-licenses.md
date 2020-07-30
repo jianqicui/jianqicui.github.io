@@ -17,7 +17,7 @@ excerpt: 开源协议规定了你在使用开源软件时的权利和责任，�
 
 ## GNU GPL（GNU General Public License，GNU 通用公共许可证）
 
-![](/assets/images/2020/gnu.jpg)
+![](/assets/images/2020/GNU.jpg)
 
 只要软件中包含了遵循 GPL 协议的产品或代码，该软件就必须也遵循 GPL 许可协议，也就是必须开源免费，不能闭源收费，因此这个协议并不适合商用软件。
 
@@ -34,7 +34,7 @@ excerpt: 开源协议规定了你在使用开源软件时的权利和责任，�
 
 ## BSD（Berkeley Software Distribution，伯克利软件发布版）协议
 
-![](/assets/images/2020/bsd.jpg)
+![](/assets/images/2020/BSD.jpg)
 
 BSD 协议基本上允许用户“为所欲为”，用户可以使用、修改和重新发布遵循该许可的软件，并且可以将软件作为商业软件发布和销售，前提是需要满足下面三个条件：
 
@@ -46,7 +46,7 @@ BSD 协议基本上允许用户“为所欲为”，用户可以使用、修改�
 
 ## Apache 许可证版本（Apache License Version）协议
 
-![](/assets/images/2020/apache.jpg)
+![](/assets/images/2020/Apache.jpg)
 
 Apache 和 BSD 类似，都适用于商业软件。Apache 协议在为开发人员提供版权及专利许可的同时，允许用户拥有修改代码及再发布的自由。
 
@@ -78,7 +78,7 @@ LGPL 允许商业软件通过类库引用（link）的方式使用 LGPL 类库�
 
 乌克兰程序员 Paul Bagwell 画了一张分析图，说明应该怎么选择开源协议，大家看了一目了然。
 
-![](/assets/images/2020/open_source_licenses.gif)
+![](/assets/images/2020/Open_Source_Licenses.gif)
 
 ## 参考
 

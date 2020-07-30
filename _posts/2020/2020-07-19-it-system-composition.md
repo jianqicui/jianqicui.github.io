@@ -29,7 +29,7 @@ excerpt: 一个典型的 IT 系统从逻辑上分为九层，其中，第 1～4 
 
 ## IT 系统的逻辑层次结构
 
-![](/assets/images/2020/it_system_architecture.jpg)
+![](/assets/images/2020/IT_System_Architecture.jpg)
 
 一个典型的 IT 系统从逻辑上分为九层，施工时也是严格按照从第 1 层到第 9 层的顺序进行的，这就是所谓的“竖井”式施工。其中，第 1～4 层可归并为基础设施层，第 5～7 层可归并为平台软件层。
 
