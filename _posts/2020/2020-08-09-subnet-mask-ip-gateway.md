@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 子网掩码、IP 地址 和默认网关
+title: 子网掩码、IP 地址和默认网关
 category: Network
 tags: [子网掩码, IP 地址, 默认网关]
 keywords: 子网掩码,IP 地址,默认网关
