@@ -25,11 +25,11 @@ excerpt: HTTP 状态码分为五类。
 
 * 400 Bad Request：客户端请求有语法错误，不能被服务器所理解。
 
-* 401 unauthorized：请求未经授权，这个状态码必须和WWW-Authenticate报头域一起使用。
+* 401 unauthorized：请求未经授权，这个状态码必须和 WWW-Authenticate 报头域一起使用。
 
 * 403 Forbidden：服务器收到请求，但是拒绝提供服务。
 
-* 404 Not Found：请求资源不存在，比如输入了错误的URL。
+* 404 Not Found：请求资源不存在，比如输入了错误的 URL。
 
 * 500 Internal Server Error：服务器发生不可预期的错误。
 
