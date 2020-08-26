@@ -19,7 +19,7 @@ Java 运行时环境是 JVM 的一个超集。JVM 对于一个平台或者操作
 
 Java 开发工具箱指的是编写一个 Java 应用所需要的所有 JAR 文件和可执行文件。事实上，JRE 是 JDK 的一部分。如果你下载了 JDK，你会看到一个名叫 JRE 的文件夹在里面。JDK 中要被牢记的 JAR 文件就是 tools.jar，它包含了用于执行 Java 文档的类还有用于类签名的 JAR 包。
 
-![](/assets/images/2020/JVM-JRE-JDK.png)
+![](/assets/images/2020/JVM_JRE_JDK.png)
 
 ## 参考
 
