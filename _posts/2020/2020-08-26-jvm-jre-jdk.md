@@ -4,7 +4,7 @@ title: JVM，JRE，JDK 有什么不同
 category: Java
 tags: [JVM, JRE, JDK]
 keywords: JVM,JRE,JDK
-excerpt:
+excerpt: JDK 包含 JRE，JRE 包含 JVM。
 ---
 
 ## Java 虚拟机（JVM）
