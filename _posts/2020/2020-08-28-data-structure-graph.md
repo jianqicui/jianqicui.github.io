@@ -1,7 +1,7 @@
 ---
 layout: post
 title: 数据结构之图
-category: Data Structures & Algorithms
+category: Data Structure & Algorithm
 tags: [数据结构, 图]
 keywords: 数据结构,图
 excerpt: 图是由顶点的有穷非空集合和顶点之间边的集合组成，通常表示为：G(V,E)，其中，G 表示一个图，V 是图 G 中顶点的集合，E 是图 G 中边的集合。

@@ -1,7 +1,7 @@
 ---
 layout: post
 title: 数据结构之散列表
-category: Data Structures & Algorithms
+category: Data Structure & Algorithm
 tags: [数据结构, 散列, 散列表]
 keywords: 数据结构,散列,散列表
 excerpt: 根据散列函数（即哈希函数）H(key)和处理冲突的方法将一组关键字映像到一个有限的连续的地址集上，并以关键字在地址集中的“象”作为记录在表中的存储位置，这种表便称为散列表（即哈希表），这一映像过程称为散列造表或散列，所得的的存储位置称散列地址。

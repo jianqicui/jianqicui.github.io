@@ -1,7 +1,7 @@
 ---
 layout: post
 title: 数据结构之堆
-category: Data Structures & Algorithms
+category: Data Structure & Algorithm
 tags: [数据结构, 堆]
 keywords: 数据结构,堆
 excerpt: 堆本质是一棵二叉树，其中所有的元素都可以按全序语义进行比较。

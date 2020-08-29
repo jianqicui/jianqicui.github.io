@@ -1,7 +1,7 @@
 ---
 layout: post
 title: 算法复杂度
-category: Data Structures & Algorithms
+category: Data Structure & Algorithm
 tags: [算法, 复杂度]
 keywords: 算法,复杂度
 excerpt: 算法复杂度分为时间复杂度和空间复杂度。时间和空间都是计算机资源的重要体现，而算法的复杂性就是体现在运行该算法时的计算机所需的资源多少。

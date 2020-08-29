@@ -1,7 +1,7 @@
 ---
 layout: post
 title: 数据结构之树
-category: Data Structures & Algorithms
+category: Data Structure & Algorithm
 tags: [数据结构, 树]
 keywords: 数据结构,树
 excerpt: 树是由结点或顶点和边组成的（可能是非线性的）且不存在着任何环的一种数据结构。没有结点的树称为空（null 或 empty）树。一棵非空的树包括一个根结点，还（很可能）有多个附加结点，所有结点构成一个多级分层结构。
