@@ -11,7 +11,7 @@ Java 语言是静态类型的（statical typed)，也就是说所有变量和表
 
 ## 数据类型
 
-在 Java 源代码中，每个变量都必须声明一种类型（type）。有两种类型：primitive type 和 reference type。引用类型引用对象（reference to object），而基本类型直接包含值（directly contain value）。primitive types 包括 boolean 类型以及数值类型（numeric types）。numeric types 又分为整型（integer types）和浮点型（floating-point type）。整型有 5 种：byte short int long char（char本质上是一种特殊的 int）。浮点类型有 float 和 double。关系整理一下如下图：
+在 Java 源代码中，每个变量都必须声明一种类型（type）。有两种类型：primitive type 和 reference type。引用类型引用对象（reference to object），而基本类型直接包含值（directly contain value）。primitive types 包括 boolean 类型以及数值类型（numeric types）。numeric types 又分为整型（integer types）和浮点型（floating-point type）。整型有 5 种：byte short int long char（char 本质上是一种特殊的 int）。浮点类型有 float 和 double。关系整理一下如下图：
 
 ![](/assets/images/2020/Java_Data_Types.png)
 
