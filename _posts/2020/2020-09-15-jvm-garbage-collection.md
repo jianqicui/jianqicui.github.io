@@ -64,7 +64,7 @@ public class ReferenceCountingGc {
 
 根据老年代的特点提出的一种标记算法，标记过程仍然与“标记-清除”算法一样，但后续步骤不是直接对可回收对象回收，而是让所有存活的对象向一端移动，然后直接清理掉端边界以外的内存。
 
-![](/assets/images/2020/Mark_Up_Algorithm.png)
+![](/assets/images/2020/Mark_Compact_Algorithm.png)
 
 ### 复制算法
 
