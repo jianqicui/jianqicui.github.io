@@ -11,6 +11,8 @@ Java 的自动内存管理主要是针对对象内存的回收和对象内存的
 
 ## 垃圾判断算法
 
+![](/assets/images/2020/Judge_Garbage.jpg)
+
 ### 引用计数法
 
 给对象中添加一个引用计数器，每当有一个地方引用它，计数器就加 1；当引用失效，计数器就减 1；任何时候计数器为 0 的对象就是不可能再被使用的。
@@ -149,10 +151,14 @@ JDK 1.8 默认使用的是 Parallel Scavenge + Parallel Old，如果指定了-XX
 
 Serial 收集器的老年代版本，它同样是一个单线程收集器。它主要有两大用途：一种用途是在 JDK 1.5 以及以前的版本中与 Parallel Scavenge 收集器搭配使用，另一种用途是作为 CMS 收集器的后备方案。
 
+![](/assets/images/2020/Serial_Old_Collector.jpg)
+
 ### Parallel Old 收集器
 
 Parallel Scavenge 收集器的老年代版本。使用多线程和“标记-整理”算法。在注重吞吐量以及 CPU 资源的场合，都可以优先考虑 Parallel Scavenge 收集器和 Parallel Old 收集器。
 
+![](/assets/images/2020/Parallel_Old_Collector.jpg)
+.jpg)
 ### CMS 收集器
 
 CMS（Concurrent Mark Sweep）收集器是一种以获取最短回收停顿时间为目标的收集器。它非常符合在注重用户体验的应用上使用。
@@ -205,6 +211,8 @@ G1 收集器的运作大致分为以下几个步骤：
 
 G1 收集器在后台维护了一个优先列表，每次根据允许的收集时间，优先选择回收价值最大的 Region（这也就是它的名字 Garbage-First 的由来）。这种使用 Region 划分内存空间以及有优先级的区域回收方式，保证了 G1 收集器在有限时间内可以尽可能高的收集效率（把内存化整为零）。
 
+![](/assets/images/2020/G1_Collector.jpg)
+
 ## 与垃圾回收有关的方法
 
 ### System.gc() 和 Runtime.gc()
@@ -226,3 +234,5 @@ Java 程序有垃圾回收器，所以一般情况下内存问题不用程序员
 [https://www.jianshu.com/p/5261a62e4d29](https://www.jianshu.com/p/5261a62e4d29)
 
 [http://www.mamicode.com/info-detail-2981224.html](http://www.mamicode.com/info-detail-2981224.html)
+
+[https://segmentfault.com/a/1190000022640316](https://segmentfault.com/a/1190000022640316)
