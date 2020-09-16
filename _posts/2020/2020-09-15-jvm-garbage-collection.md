@@ -213,6 +213,12 @@ G1 收集器在后台维护了一个优先列表，每次根据允许的收集�
 
 ![](/assets/images/2020/G1_Collector.jpg)
 
+### 各代 HotSpot（Server模式下）默认垃圾收集器
+
+* jdk1.7 默认垃圾收集器 Parallel Scavenge（新生代）+ Parallel Old（老年代）
+* jdk1.8 默认垃圾收集器 Parallel Scavenge（新生代）+ Parallel Old（老年代）
+* jdk1.9 默认垃圾收集器 G1
+
 ## 与垃圾回收有关的方法
 
 ### System.gc() 和 Runtime.gc()
