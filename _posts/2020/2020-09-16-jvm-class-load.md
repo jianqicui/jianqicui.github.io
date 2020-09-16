@@ -1,9 +1,9 @@
 ---
 layout: post
-title: JVM 类的加载
+title: JVM 类加载机制
 category: Java
-tags: [JVM, 垃圾回收]
-keywords: JVM,垃圾回收
+tags: [JVM, 类加载机制]
+keywords: JVM,类加载机制
 excerpt: 虚拟机把描述类的数据从 .class 文件加载到内存，并对数据进行校验、转换解析和初始化，最终形成可以被虚拟机直接使用的 Java 类型，这就是虚拟机的类加载机制。
 ---
 
