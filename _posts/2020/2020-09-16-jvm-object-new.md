@@ -13,7 +13,7 @@ Java 创建对象的过程：
 
 类加载检查 –> 分配内存 –> 初始化零值 –> 设置对象头 –> 执行 init 方法
 
-![](/assets/images/2020/Object_Create_Flow.png)
+![](/assets/images/2020/New_Object_Flow.png)
 
 ### 类加载检查
 
