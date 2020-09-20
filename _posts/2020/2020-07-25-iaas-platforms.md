@@ -14,7 +14,7 @@ CloudStack 是一个开源的具有高可用性及扩展性的云计算平台。
 ## OpenStack 和 CloudStack 的比较
 
 | 比较 | OpenStack | CloudStack |
-| ----| ---- | ---- |
+| ---- | ---- | ---- |
 | 服务类型 | Iaas | Iaas |
 | 授权协议 | Apache 2.0 | Apache 2.0 |
 | 许可证 | 不需要 | 不需要 |
