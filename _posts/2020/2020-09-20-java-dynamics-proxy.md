@@ -328,7 +328,7 @@ class com.cglib.UserDao$$EnhancerByCGLIB$$552188b6
 
 * JDK 动态代理需要目标对象实现业务接口，代理类只需实现 InvocationHandler 接口。
 
-* 动态代理生成的类为 com.sun.proxy.$Proxy4，cglib 代理生成的类为 com.cglib.UserDao$$EnhancerByCGLIB$$552188b6。
+* 动态代理生成的类为 com.sun.proxy.$Proxy4，cglib 代理生成的类为 com.cglib.UserDao\$\$EnhancerByCGLIB\$\$552188b6。
 
 * 静态代理在编译时产生 class 字节码文件，可以直接使用，效率高。
 
