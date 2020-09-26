@@ -2,8 +2,8 @@
 layout: post
 title: Java 动态性之反射
 category: Java
-tags: [JVM, 动态性, 反射]
-keywords: JVM,动态性,反射
+tags: [Java, 动态性, 反射]
+keywords: Java,动态性,反射
 excerpt: Java 反射机制是在运行状态中，对于任意一个类，都能够获取这个类的所有属性和方法；对于任意一个对象，都能够调用它的任意一个方法和属性；这种动态获取类信息以及动态调用对象内容就称为 Java 语言的反射机制。
 ---
 

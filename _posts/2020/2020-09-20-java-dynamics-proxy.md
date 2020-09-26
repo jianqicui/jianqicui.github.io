@@ -2,8 +2,8 @@
 layout: post
 title: Java 动态性之代理
 category: Java
-tags: [JVM, 动态性, 代理]
-keywords: JVM,动态性,代理
+tags: [Java, 动态性, 代理]
+keywords: Java,动态性,代理
 excerpt: 代理模式是一种设计模式，提供了对目标对象额外的访问方式，即通过代理对象访问目标对象，这样可以在不修改原目标对象的前提下，提供额外的功能操作，扩展目标对象的功能。
 ---
 
