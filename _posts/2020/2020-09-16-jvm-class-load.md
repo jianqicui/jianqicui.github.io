@@ -200,7 +200,7 @@ protected synchronized Class<?> loadClass(String name, boolean resolve) throws C
 
 类加载有三种方式：
 
-* 命令行启动应用时候由JVM初始化加载
+* 命令行启动应用时候由 JVM 初始化加载
 
 * 通过 Class.forName() 方法动态加载
 
