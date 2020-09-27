@@ -211,9 +211,8 @@ Main.java
 public class Main {
 
     public static void main(String[] args) throws Exception {
-        VirtualMachine vm = null;
-        String agentjarpath = "xxx.jar"; // agentjar路径
-        vm = VirtualMachine.attach("9730"); // 目标JVM的进程ID（PID）
+        VirtualMachine vm = VirtualMachine.attach("9730"); // 目标 JVM 的进程 ID（PID）
+        String agentjarpath = "xxx.jar"; // agentjar 路径
         vm.loadAgent(agentjarpath, "This is Args to the Agent.");
         vm.detach();
     }
