@@ -249,7 +249,7 @@ public class Main {
 
   3. 新类和老类访问符必须一致。 新类和老类字段数和字段名要一致。
 
-  4. 新类和老类新增或删除的方法必须是private static/final修饰的。
+  4. 新类和老类新增或删除的方法必须是 private static/final 修饰的。
 
   5. 可以删除修改方法体。
 
