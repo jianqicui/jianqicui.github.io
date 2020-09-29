@@ -196,6 +196,8 @@ protected synchronized Class<?> loadClass(String name, boolean resolve) throws C
 
 * 保证 Java 程序安全稳定运行
 
+一个应用程序是由多个类组成，程序启动时，并不是一次把所有的类全部加载后再运行，它总是先把保证程序运行的基础类一次性加载到 JVM 中，其它类等到 JVM 用到的时候再加载。
+
 ## 类的加载方式
 
 类加载有三种方式：
