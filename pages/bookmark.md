@@ -8,3 +8,5 @@ permalink: /bookmark
 
 ## Tools
 - [diagrams.net](https://www.diagrams.net/) - Software and Flowchart Maker
+
+- [Baeldung](https://www.baeldung.com/) - Tutorials and Guides
