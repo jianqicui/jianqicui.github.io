@@ -264,3 +264,11 @@ public class Main {
 [https://segmentfault.com/a/1190000021278869](https://segmentfault.com/a/1190000021278869)
 
 [https://paper.seebug.org/1100/](https://paper.seebug.org/1100/)
+
+[https://github.com/electronicarts/ea-agent-loader/blob/master/agent-loader/src/main/java/com/ea/agentloader/AgentLoader.java](https://github.com/electronicarts/ea-agent-loader/blob/master/agent-loader/src/main/java/com/ea/agentloader/AgentLoader.java)
+
+[https://www.cnblogs.com/goodAndyxublog/p/11880314.html](https://www.cnblogs.com/goodAndyxublog/p/11880314.html)
+
+[https://zhuanlan.zhihu.com/p/74255330](https://zhuanlan.zhihu.com/p/74255330)
+
+[https://www.cnblogs.com/rickiyang/p/11368932.html](https://www.cnblogs.com/rickiyang/p/11368932.html)
