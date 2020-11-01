@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Java 动态性之 动态编译
+title: Java 动态性之动态编译
 category: Java
 tags: [JVM, 动态性, 动态编译]
 keywords: JVM,动态性,动态编译
@@ -235,7 +235,7 @@ public class DynamicCompileWithoutWritingFile {
         }
     }
 
-    public static class BytesClassLoader extends ClassLoader {
+    private static class BytesClassLoader extends ClassLoader {
 
         private final byte[] classBytes;
 
