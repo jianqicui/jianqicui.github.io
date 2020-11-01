@@ -7,23 +7,6 @@ keywords: Java,File
 excerpt: File 类的 getPath()，getAbsolutePath()，getCanonicalPath() 区别
 ---
 
-**代码**
-
-```
-File file = new File("./test.txt");
-System.out.println(file.getPath());
-System.out.println(file.getAbsolutePath());
-System.out.println(file.getCanonicalPath());
-```
-
-**输出**
-
-```
-./test.txt
-/tmp/Test/./test.txt
-/tmp/Test/test.txt
-```
-
 ## getPath()
 
 gets the path string that the File object was constructed with, and it may be relative current directory.
@@ -41,6 +24,15 @@ gets the path string after resolving it against the current directory if it's re
 gets the path string after resolving any relative path against current directory, and removes any relative pathing (. and ..), and any file system links to return a path which the file system considers the canonical means to reference the file system object to which it points.
 
 返回的是规范化的绝对路径，相当于将 getAbsolutePath() 中的 “.” 和 “..” 解析成对应的正确的路径。
+
+## 代码示例
+
+```
+File file = new File("./test.txt");
+System.out.println(file.getPath()); // ./test.txt
+System.out.println(file.getAbsolutePath()); // /tmp/Test/./test.txt
+System.out.println(file.getCanonicalPath()); // /tmp/Test/test.txt
+```
 
 ## 参考
 
