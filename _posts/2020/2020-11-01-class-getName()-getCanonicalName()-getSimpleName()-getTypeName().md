@@ -48,6 +48,8 @@ excerpt: Class 类 getName()、getCanonicalName()、getSimpleName()、getTypeNam
 ## 代码示例
 
 ```
+package lang.reflect;
+
 public class AAA {
 
     class BBB {
