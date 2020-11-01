@@ -254,3 +254,5 @@ public class DynamicCompileWithoutWritingFile {
 ## 参考
 
 [https://blog.csdn.net/zhao_xinhu/article/details/82499062](https://blog.csdn.net/zhao_xinhu/article/details/82499062)
+
+[https://github.com/gam2046/UtilsClass/blob/master/locals/DynamicLoader.java](https://github.com/gam2046/UtilsClass/blob/master/locals/DynamicLoader.java)
