@@ -70,14 +70,10 @@ public class AAA {
         System.out.println(BBB.class.getTypeName()); // lang.reflect.AAA$BBB
 
         // 匿名内部类
-        System.out.println(new Object() {
-        }.getClass().getName()); // lang.reflect.AAA$1
-        System.out.println(new Object() {
-        }.getClass().getCanonicalName()); // null
-        System.out.println(new Object() {
-        }.getClass().getSimpleName()); // ""
-        System.out.println(new Object() {
-        }.getClass().getTypeName()); // lang.reflect.AAA$4
+        System.out.println(new Object() {}.getClass().getName()); // lang.reflect.AAA$1
+        System.out.println(new Object() {}.getClass().getCanonicalName()); // null
+        System.out.println(new Object() {}.getClass().getSimpleName()); // ""
+        System.out.println(new Object() {}.getClass().getTypeName()); // lang.reflect.AAA$4
 
         // 普通类
         System.out.println(AAA.class.getName()); // lang.reflect.AAA
