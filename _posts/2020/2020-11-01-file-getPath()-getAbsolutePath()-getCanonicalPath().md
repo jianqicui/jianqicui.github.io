@@ -1,10 +1,10 @@
 ---
 layout: post
-title: Java 中 File 类的 getPath()，getAbsolutePath()，getCanonicalPath() 区别
+title: File 类的 getPath()，getAbsolutePath()，getCanonicalPath() 区别
 category: Java
 tags: [Java, File]
 keywords: Java,File
-excerpt: Java 中 File 类的 getPath()，getAbsolutePath()，getCanonicalPath() 区别
+excerpt: File 类的 getPath()，getAbsolutePath()，getCanonicalPath() 区别
 ---
 
 **代码**
