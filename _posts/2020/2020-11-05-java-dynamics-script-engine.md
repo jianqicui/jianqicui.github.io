@@ -9,7 +9,7 @@ excerpt: Java 脚本引擎使得应用程序可以通过一套固定的接口与
 
 Java 脚本引擎使得应用程序可以通过一套固定的接口与各种脚本引擎交互，从而达到在 Java 平台上调用各种脚本语言的目的。Java 脚本 API 是连通 Java 平台和脚本语言的桥梁，可以把一些复杂异变的业务逻辑交给脚本语言处理，这又大大提高了开发效率。
 
-**JavaScript 引擎**
+## JavaScript 引擎
 
 自从 Java1.6 以后 Java 就自带 JavaScript 引擎，这个支持来自于 JSR223 规范，对应的包是 javax.script。1.6、1.7 使用 Rhino 引擎，1.8 使用 Nashorn 引擎。
 Rhino 和 Nashorn 都是用 Java 实现的 JavaScript 引擎。它们自身都是普通的 Java 程序，运行在 JVM 上。
