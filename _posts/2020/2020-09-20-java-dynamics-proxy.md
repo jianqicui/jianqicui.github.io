@@ -43,7 +43,7 @@ public interface IUserDao {
 **目标对象：UserDao**
 
 ```
-public class UserDao implements IUserDao{
+public class UserDao implements IUserDao {
 
     @Override
     public void save() {
@@ -55,16 +55,17 @@ public class UserDao implements IUserDao{
 **静态代理对象：UserDapProxy 需要实现 IUserDao 接口**
 
 ```
-public class UserDaoProxy implements IUserDao{
+public class UserDaoProxy implements IUserDao {
 
     private IUserDao target;
+
     public UserDaoProxy(IUserDao target) {
         this.target = target;
     }
 
     @Override
     public void save() {
-        System.out.println("开启事务");// 扩展了额外功能
+        System.out.println("开启事务"); // 扩展了额外功能
         target.save();
         System.out.println("提交事务");
     }
@@ -77,7 +78,7 @@ public class UserDaoProxy implements IUserDao{
 public class TestProxy {
 
     @Test
-    public void testStaticProxy(){
+    public void testStaticProxy() {
         // 目标对象
         IUserDao target = new UserDao();
         // 代理对象
