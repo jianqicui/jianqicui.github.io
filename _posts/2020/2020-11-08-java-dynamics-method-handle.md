@@ -186,6 +186,8 @@ Batch MethodHandle cost: [5917, 5990, 5896, 6065, 5925, 6074, 6134, 5867, 5877, 
 Batch MethodHandle average cost: 5993.8
 ```
 
+硬件：Intel Xeon Silver 4114 @ 2.20GHz 2.19GHz CPU，CPU 80G memory，Windows 10 OS
+
 如上所述，执行 10 个批次，每个批次执行 print 方法 1 百万次。
 
 总体上看，方法句柄的性能比反射略好。
