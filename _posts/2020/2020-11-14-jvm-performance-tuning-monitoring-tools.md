@@ -353,7 +353,7 @@ jmap [option] LVMID
 常用格式
 
 ```
--dump::live,format=b,file=<filename> pid
+-dump:live,format=b,file=<filename> pid
 ```
 
 dump 堆到文件，format 指定输出格式，live 指明是活着的对象，file 指定文件名
