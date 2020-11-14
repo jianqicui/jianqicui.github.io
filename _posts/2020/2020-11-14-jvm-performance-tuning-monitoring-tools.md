@@ -610,7 +610,7 @@ jstack [option] LVMID
 **示例**
 
 ```
-$ jstack -l 11494|more
+$ jstack -l 11494 | more
 2016-07-28 13:40:04
 Full thread dump Java HotSpot(TM) 64-Bit Server VM (24.71-b01 mixed mode):
 
