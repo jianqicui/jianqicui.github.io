@@ -219,7 +219,7 @@ public class LogbackSample {
 
 硬件：Intel Xeon Silver 4114 @ 2.20GHz 2.19GHz CPU，CPU 80G memory，Windows 10 OS
 
-每个测试有 5 个批次，每个批次跑 1,000,000 次。
+每个测试有 5 个批次，每个批次跑 1 百万次。
 
 ```
 Batch executing logs with placeholder cost: [15937, 15344, 15594, 15312, 15557]
