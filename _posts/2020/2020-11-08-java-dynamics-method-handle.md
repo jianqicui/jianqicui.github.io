@@ -95,17 +95,29 @@ import org.junit.Test;
 public class ReflectAndMethodHandleSample {
 
     @Test
-    public void testBatch() {
+    public void testBatchReflect() {
         // 预热
         IntStream.range(0, 10).forEach(i -> testReflect());
-        IntStream.range(0, 10).forEach(i -> testMethodHandle());
 
         // 测试
         final long[] batchReflectMillisArray = IntStream.range(0, 10).mapToLong(i -> testReflect()).toArray();
-        final long[] batchMethodHandleMillisArray = IntStream.range(0, 10).mapToLong(i -> testMethodHandle()).toArray();
 
         System.out.println(String.format("Batch Reflect cost: %s", Arrays.toString(batchReflectMillisArray)));
+        System.out.println(String.format("Batch Reflect average cost: %s",
+                Arrays.stream(batchReflectMillisArray).average().getAsDouble()));
+    }
+
+    @Test
+    public void testBatchMethodHandle() {
+        // 预热
+        IntStream.range(0, 10).forEach(i -> testMethodHandle());
+
+        // 测试
+        final long[] batchMethodHandleMillisArray = IntStream.range(0, 10).mapToLong(i -> testMethodHandle()).toArray();
+
         System.out.println(String.format("Batch MethodHandle cost: %s", Arrays.toString(batchMethodHandleMillisArray)));
+        System.out.println(String.format("Batch MethodHandle average cost: %s",
+                Arrays.stream(batchMethodHandleMillisArray).average().getAsDouble()));
     }
 
     private long testReflect() {
@@ -167,13 +179,16 @@ public class ReflectAndMethodHandleSample {
 
 **输出**
 ```
-Batch Reflect cost: [6095, 6017, 6156, 5801, 5775, 5815, 5755, 5783, 5909, 5952]
-Batch MethodHandle cost: [5978, 5992, 5967, 6029, 6267, 5746, 6199, 6122, 6084, 6161]
+Batch Reflect cost: [5692, 5594, 5969, 5938, 5765, 5985, 5830, 5921, 5842, 5865]
+Batch Reflect average cost: 5840.1
+
+Batch MethodHandle cost: [5917, 5990, 5896, 6065, 5925, 6074, 6134, 5867, 5877, 6193]
+Batch MethodHandle average cost: 5993.8
 ```
 
 如上所述，执行 10 个批次，每个批次执行 print 方法 1 百万次。
 
-总体上看，反射与方法句柄的性能差不多。
+总体上看，方法句柄的性能比反射略好。
 
 ## 参考
 
