@@ -217,7 +217,7 @@ public class LogbackSample {
 
 ## 测试输出
 
-硬件：Intel Xeon Silver 4114 @ 2.20GHz 2.19GHz CPU, CPU 80G memory, Windows 10
+硬件：Intel Xeon Silver 4114 @ 2.20GHz 2.19GHz CPU，CPU 80G memory，Windows 10 OS
 
 每个测试有 5 个批次，每个批次跑 1,000,000 次。
 
