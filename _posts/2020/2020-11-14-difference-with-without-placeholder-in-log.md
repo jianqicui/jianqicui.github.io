@@ -217,7 +217,17 @@ public class LogbackSample {
 
 ## 测试输出
 
-硬件：Intel Xeon Silver 4114 @ 2.20GHz 2.19GHz CPU，CPU 80G memory，Windows 10 OS
+**硬件**
+
+CPU: Intel Xeon Silver 4114 @ 2.20GHz 2.19GHz
+
+Memory: 80G
+
+Disk: SSD 512G
+
+OS: Windows 10
+
+JDK: Oracle JDK 8
 
 每个测试有 5 个批次，每个批次跑 1 百万次。
 
