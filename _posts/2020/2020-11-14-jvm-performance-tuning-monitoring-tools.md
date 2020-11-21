@@ -359,12 +359,12 @@ jmap [option] LVMID
 dump 堆到文件，format 指定输出格式，live 指明是活着的对象，file 指定文件名
 
 ```
-$ jmap -dump:live,format=b,file=dump.hprof 28920
-  Dumping heap to /home/xxx/dump.hprof ...
+$ jmap -dump:live,format=b,file=heap.hprof 28920
+  Dumping heap to /home/xxx/heap.hprof ...
   Heap dump file created
 ```
 
-dump.hprof 这个后缀是为了后续可以直接用 MAT（Memory Anlysis Tool）打开。
+heap.hprof 这个后缀是为了后续可以直接用 MAT（Memory Anlysis Tool）打开。
 
 **-finalizerinfo**
 
@@ -549,8 +549,8 @@ jhat [dumpfile]
 **示例**
 
 ```
-$ jhat -J-Xmx512m dump.hprof
-  eading from dump.hprof...
+$ jhat -J-Xmx512m
+  eading from heap.hprof...
   Dump file created Fri Mar 11 17:13:42 CST 2016
   Snapshot read, resolving...
   Resolving 271678 objects...
@@ -610,7 +610,8 @@ jstack [option] LVMID
 **示例**
 
 ```
-$ jstack -l 11494 | more
+$ jstack -l 11494 > thread.tdump
+
 2016-07-28 13:40:04
 Full thread dump Java HotSpot(TM) 64-Bit Server VM (24.71-b01 mixed mode):
 
