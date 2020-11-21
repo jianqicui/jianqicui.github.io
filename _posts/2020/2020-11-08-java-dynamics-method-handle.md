@@ -186,7 +186,17 @@ Batch MethodHandle cost: [5917, 5990, 5896, 6065, 5925, 6074, 6134, 5867, 5877, 
 Batch MethodHandle average cost: 5993.8
 ```
 
-硬件：Intel Xeon Silver 4114 @ 2.20GHz 2.19GHz CPU，CPU 80G memory，Windows 10 OS
+**硬件**
+
+CPU: Intel Xeon Silver 4114 @ 2.20GHz 2.19GHz
+
+Memory: 80G
+
+Disk: SSD 512G
+
+OS: Windows 10
+
+JDK: Oracle JDK 8
 
 如上所述，执行 10 个批次，每个批次执行 print 方法 1 百万次。
 
