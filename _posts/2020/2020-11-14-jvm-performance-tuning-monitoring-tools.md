@@ -316,8 +316,22 @@ jinfo [option] [args] LVMID
 **示例**
 
 ```
-$ jinfo -flag 11494
--XX:CMSInitiatingOccupancyFraction=80
+$ jinfo -flags 25070
+
+$ jinfo -flag HeapDumpPath 25070
+$ jinfo -flag PrintGCDetails 25070
+
+$ jinfo -flag HeapDumpPath=/tmp/heap-dump/ 25070
+
+$ jinfo -flag +PrintGCDetails 25070
+$ jinfo -flag +HeapDumpBeforeFullGC 25070
+$ jinfo -flag +HeapDumpAfterFullGC 25070
+
+$ jinfo -flag -PrintGCDetails 25070
+$ jinfo -flag -HeapDumpBeforeFullGC 25070
+$ jinfo -flag -HeapDumpAfterFullGC 25070
+
+$ jinfo -sysprops 25070
 ```
 
 ## jmap
