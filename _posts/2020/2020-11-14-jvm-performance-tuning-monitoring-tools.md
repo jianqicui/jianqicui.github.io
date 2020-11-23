@@ -318,18 +318,20 @@ jinfo [option] [args] LVMID
 ```
 $ jinfo -flags 25070
 
+$ jinfo -flag HeapDumpOnOutOfMemoryError 25070
+$ jinfo -flag HeapDumpBeforeFullGC 25070
+$ jinfo -flag HeapDumpAfterFullGC 25070
 $ jinfo -flag HeapDumpPath 25070
-$ jinfo -flag PrintGCDetails 25070
 
-$ jinfo -flag HeapDumpPath=/tmp/heap-dump/ 25070
-
-$ jinfo -flag +PrintGCDetails 25070
+$ jinfo -flag +HeapDumpOnOutOfMemoryError 25070
 $ jinfo -flag +HeapDumpBeforeFullGC 25070
 $ jinfo -flag +HeapDumpAfterFullGC 25070
 
-$ jinfo -flag -PrintGCDetails 25070
+$ jinfo -flag -HeapDumpOnOutOfMemoryError 25070
 $ jinfo -flag -HeapDumpBeforeFullGC 25070
 $ jinfo -flag -HeapDumpAfterFullGC 25070
+
+$ jinfo -flag HeapDumpPath=/tmp/heap-dump/ 25070
 
 $ jinfo -sysprops 25070
 ```
