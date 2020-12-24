@@ -13,11 +13,11 @@ LinkedList/LinkedHashSet/LinkedHashMap，这三个没有 ArrayList/HashSet/HashM
 
 ### ArrayList
 
-基于数组的有序列表。
+基于数组的有序列表。插入顺序，即取出顺序。
 
 ### LinkedList
 
-基于链表的有序列表。
+基于链表的有序列表。插入顺序，即取出顺序。
 
 ## Set
 
