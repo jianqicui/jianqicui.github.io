@@ -660,3 +660,5 @@ Full thread dump Java HotSpot(TM) 64-Bit Server VM (24.71-b01 mixed mode):
 ## 参考
 
 [https://www.cnblogs.com/ityouknow/p/5714703.html](https://www.cnblogs.com/ityouknow/p/5714703.html)
+
+[https://geekflare.com/generate-analyze-thread-dumps/](https://geekflare.com/generate-analyze-thread-dumps/)
