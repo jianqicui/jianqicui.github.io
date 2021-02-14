@@ -119,3 +119,7 @@ public class HeapOOM {
 [https://my.oschina.net/feinik/blog/874023](https://my.oschina.net/feinik/blog/874023)
 
 [https://www.cnblogs.com/shihaiming/p/11389386.html](https://www.cnblogs.com/shihaiming/p/11389386.html)
+
+[https://www.jianshu.com/p/97251691af88](https://www.jianshu.com/p/97251691af88)
+
+[https://blog.csdn.net/zhanshenzhi2008/article/details/89070049](https://blog.csdn.net/zhanshenzhi2008/article/details/89070049)
