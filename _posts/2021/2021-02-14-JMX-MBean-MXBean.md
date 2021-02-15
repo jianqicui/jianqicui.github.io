@@ -340,9 +340,9 @@ private final class CompositeMapping extends NonNullMXBeanMapping {
 }
 ```
 
-## 参考
-
 当 JConsole 访问 User 对象时，将 User 对象转换成 CompositeDataSupport 对象。
+
+## 参考
 
 [https://www.cnblogs.com/strongmore/p/14053569.html](https://www.cnblogs.com/strongmore/p/14053569.html)
 
