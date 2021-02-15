@@ -35,7 +35,7 @@ gem install jekyll
 ```
 jekyll new testblog
 cd testblog
-jekyll serve
+jekyll serve --host localhost
 ```
 
 如果前面两步没问题，输出应该是这样。
@@ -49,11 +49,11 @@ Configuration file: C:/Data/Workspace/Eclipse/Jekyll/testblog/_config.yml
        Jekyll Feed: Generating feed for posts
                     done in 0.771 seconds.
  Auto-regeneration: enabled for 'C:/Data/Workspace/Eclipse/Jekyll/testblog'
-    Server address: http://127.0.0.1:4000/
+    Server address: http://localhost:4000/
   Server running... press ctrl-c to stop.
 ```
 
-在浏览器中输入 [http://127.0.0.1:4000/](http://127.0.0.1:4000/)，即可打开刚创建的博客。
+在浏览器中输入 [http://localhost:4000/](http://localhost:4000/)，即可打开刚创建的博客。
 
 ## 3、下载使用Jekyll模板
 
@@ -69,7 +69,7 @@ Configuration file: C:/Data/Workspace/Eclipse/Jekyll/testblog/_config.yml
 
 删除 `_posts` 中的内容，撰写自己的博客内容。
 
-用 `jekyll serve` 启动 Jekyll。
+用 `jekyll serve --host localhost` 启动 Jekyll。
 
 启动后，控制台中有可能会出现相关依赖没找到的情形。使用 `gem install <dependency>` 安装依赖。
 
