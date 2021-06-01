@@ -179,11 +179,11 @@ public class ReflectAndMethodHandleSample {
 
 **输出**
 ```
-Batch Reflect cost: [5692, 5594, 5969, 5938, 5765, 5985, 5830, 5921, 5842, 5865]
-Batch Reflect average cost: 5840.1
+Batch Reflect cost: [5442, 5405, 5555, 5568, 5553, 5839, 5402, 5486, 5428, 5436]
+Batch Reflect average cost: 5511.4
 
-Batch MethodHandle cost: [5917, 5990, 5896, 6065, 5925, 6074, 6134, 5867, 5877, 6193]
-Batch MethodHandle average cost: 5993.8
+Batch MethodHandle cost: [5080, 4933, 4907, 5024, 4871, 4921, 5134, 4884, 5105, 4919]
+Batch MethodHandle average cost: 4977.8
 ```
 
 **硬件**
