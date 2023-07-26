@@ -1,6 +1,6 @@
 ---
 layout: page
-title: All My Blogs
+title: Jacky's Blog
 subtitle: <span class="mega-octicon octicon-clippy"></span>&nbsp;&nbsp; Take notes about everything new
 menu: blog
 permalink: /blog
