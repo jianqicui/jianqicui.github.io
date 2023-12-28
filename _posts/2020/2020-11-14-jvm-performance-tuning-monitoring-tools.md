@@ -338,9 +338,9 @@ $ jinfo -sysprops 25070
 
 ## jmap
 
-jmap（JVM Memory Map）命令用于生成 heap dump 文件，如果不使用这个命令，还阔以使用 -XX:+HeapDumpOnOutOfMemoryError 参数来让虚拟机出现 OOM 的时候自动生成 dump 文件。
+jmap（JVM Memory Map）命令用于生成 heap dump 文件，如果不使用这个命令，还可以使用 -XX:+HeapDumpOnOutOfMemoryError 参数来让虚拟机出现 OOM 的时候自动生成 dump 文件。
 
-jmap 不仅能生成 dump 文件，还阔以查询 finalize 执行队列、Java 堆和永久代的详细信息，如当前使用率、当前使用的是哪种收集器等。
+jmap 不仅能生成 dump 文件，还可以查询 finalize 执行队列、Java 堆和永久代的详细信息，如当前使用率、当前使用的是哪种收集器等。
 
 **命令格式**
 
