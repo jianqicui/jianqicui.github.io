@@ -1,10 +1,10 @@
 ---
 layout: post
-title: 3C 原则
+title: 如何避免重复
 category: Software Engineering
-tags: [3C, 原则]
-keywords: 3C,原则
-excerpt: 3C 原则
+tags: [避免, 避免]
+keywords: 避免,重复
+excerpt: 如何避免重复
 ---
 
 ## 如何避免重复
