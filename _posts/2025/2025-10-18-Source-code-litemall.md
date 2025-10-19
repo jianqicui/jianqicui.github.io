@@ -7,7 +7,7 @@ keywords: Spring Boot,Vue,小程序
 excerpt: litemall = Spring Boot后端 + Vue管理员前端 + 微信小程序用户前端 + Vue用户移动端
 ---
 
-[源码下载地址](https://dev.mysql.com/downloads/mysql/)
+[源码下载地址](https://pan.quark.cn/s/eac3818ce59f)
 
 ## 功能
 
