@@ -1,6 +1,6 @@
 ---
 layout: post
-title: （远程工作）Senior Java/Kotlin Engineer
+title: "[远程工作分享]Senior Java/Kotlin Engineer"
 category: Remote job
 tags: [Remote job]
 keywords: Remote job
