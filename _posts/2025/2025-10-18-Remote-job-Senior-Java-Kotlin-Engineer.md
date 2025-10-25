@@ -89,4 +89,4 @@ excerpt: Senior Java/Kotlin Engineer
 
 ### 详细信息
 
-    [下载地址](https://pan.quark.cn/s/38871e2ff836)
+[下载地址](https://pan.quark.cn/s/38871e2ff836)
