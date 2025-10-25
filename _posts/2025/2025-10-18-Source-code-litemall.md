@@ -1,6 +1,6 @@
 ---
 layout: post
-title: [源代码分享]一个微信小程序商城
+title: "[源代码分享]一个微信小程序商城"
 category: Source Code
 tags: [Spring Boot, Vue, 小程序]
 keywords: Spring Boot,Vue,小程序
