@@ -12,8 +12,6 @@ excerpt: Senior Java/Kotlin Engineer
 - **Employees can work remotely**
 - **Full-time**
 
----
-
 ### 公司介绍
 
 您准备好构建高性能、可扩展、可靠的分布式系统，以服务全球数百万用户吗？Sigma Software 正在寻找一位高级 Java/Kotlin 开发人员，加入我们的远程团队，致力于为宠物产品市场领先公司开发创新平台。
@@ -22,8 +20,6 @@ excerpt: Senior Java/Kotlin Engineer
 
 #### 加入我们的理由：
 - 您将成为全球团队的一员，参与有影响力的项目，使用先进的技术栈，同时享受远程工作的灵活性和职业发展的机会。
-
----
 
 ### 客户
 
@@ -42,8 +38,6 @@ excerpt: Senior Java/Kotlin Engineer
 - SQL
 - NoSQL
 
----
-
 ### 职位描述
 
 - 设计、开发和实施大规模分布式系统，确保可扩展性、低延迟和容错性
@@ -52,8 +46,6 @@ excerpt: Senior Java/Kotlin Engineer
 - 提供代码和数据修复
 - 创建并执行单元测试、API 测试、回归测试和性能测试
 - 与跨职能团队合作，快速解决生产事件
-
----
 
 ### 任职资格
 
@@ -74,8 +66,6 @@ excerpt: Senior Java/Kotlin Engineer
 - 使用 Kubernetes 进行容器编排经验
 - 具有电商或宠物产品领域的行业知识
 - 有 AWS Lambda 或 DynamoDB 使用经验
-
----
 
 ### 其他信息
 
