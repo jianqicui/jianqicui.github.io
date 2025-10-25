@@ -96,4 +96,3 @@ excerpt: litemall = Spring Boot后端 + Vue管理员前端 + 微信小程序用�
 ## 源代码
 
 [下载地址](https://pan.quark.cn/s/eac3818ce59f)
-
