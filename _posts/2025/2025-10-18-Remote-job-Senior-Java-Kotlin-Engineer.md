@@ -77,6 +77,6 @@ excerpt: Senior Java/Kotlin Engineer
 - 适应快节奏的工作环境
 - 具备领导能力和辅导经验
 
-### 详细信息
+### 投递信息下载
 
-[下载地址](https://pan.quark.cn/s/38871e2ff836)
+    https://pan.quark.cn/s/38871e2ff836
