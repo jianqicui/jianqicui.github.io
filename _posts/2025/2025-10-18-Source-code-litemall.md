@@ -93,6 +93,6 @@ excerpt: litemall = Spring Boot后端 + Vue管理员前端 + 微信小程序用�
     ```
     此时，浏览器（建议采用chrome 手机模式）打开，输入网址`http://localhost:6255`, 此时进入轻商场。
 
-## 源代码
+## 源代码下载
 
-[下载地址](https://pan.quark.cn/s/eac3818ce59f)
+    https://pan.quark.cn/s/eac3818ce59f
