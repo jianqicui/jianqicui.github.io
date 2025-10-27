@@ -128,6 +128,6 @@ excerpt: 开源商城 JAVA商城 多语言商城 分销商城 uniapp商城 小�
 #### 平台管理端
 ![管理端功能展示](https://static.pickmall.cn/images/other/manager.gif)
 
-## 源代码下载
+### 源代码下载
 
     https://pan.quark.cn/s/38bbd6230f60
