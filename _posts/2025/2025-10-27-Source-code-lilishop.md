@@ -7,8 +7,6 @@ keywords: Spring Boot,Vue,小程序
 excerpt: 开源商城 JAVA商城 多语言商城 分销商城 uniapp商城 小程序商城 SAAS商城
 ---
 
-![](/assets/images/2025/Lilishop.png)
-
 ### 1. 项目简介
 
 **Lilishop** 是一款功能完善的B2B2C多商户商城系统，采用前后端分离架构，全端代码开源。后端基于 **SpringBoot** 构建，具备高内聚、低耦合的特性，支持分布式部署。前端覆盖PC、H5、小程序和APP，基于 **Vue** 和 **uni-app** 开发。
